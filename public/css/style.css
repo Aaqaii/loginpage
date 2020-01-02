@@ -1,0 +1,38 @@
+
+
+
+body{
+
+  background-color: yellow;
+   background-image: url("https://image.shutterstock.com/image-illustration/2020-year-white-studio-template-600w-1524211169.jpg"),url(https://image.shutterstock.com/image-illustration/2020-year-white-studio-template-600w-1525510124.jpg) ;
+ background-repeat: no-repeat no-repeat;
+
+  background-size: cover;
+}
+h1{
+
+
+   font-family: "Bernard MT";
+   font-size:7rem;
+   text-shadow: 3px 0  #DA0463;  text-align: center;
+}
+.button1{
+
+margin-left: 430px;
+margin-top: 50px;
+width: 300px;
+height: 50px;
+text-align: center;
+color: #ddd;
+ text-shadow: 3px 0  #333;
+}
+.short{
+  color:#660033 ;
+font-family: "Century Gothic";
+}
+a:hover{
+  color: #ddd;
+}
+button:hover{
+  background-color: #ddd;
+}

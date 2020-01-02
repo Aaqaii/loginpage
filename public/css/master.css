@@ -1,0 +1,36 @@
+body{
+  background-image: url("https://cdn.pixabay.com/photo/2019/12/09/06/53/happy-new-year-4682825__340.png");
+  background-repeat: no-repeat no-repeat;
+   background-size: cover;
+   backface-visibility: hidden;
+}
+.con{
+  margin: 10px 300px 200px;
+
+  background: rgba(0, 151, 19, 0.3);
+              padding: 10px;
+
+}
+form{
+  padding: 100px 300px;
+  text-align: left;
+
+
+}
+h1{
+  text-align: center;
+}
+input{
+  text-align: left;
+}
+label{
+  font-size: 1rem;
+
+  color:white;
+  text-align: left;
+}
+.button1{
+  margin: 30px 100px;
+  padding: 20px;
+  text-align:center;
+}
