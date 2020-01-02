@@ -23,14 +23,13 @@ var connection = mysql.createConnection({
 connection.connect(function(err){
   if(err)
   throw err
-  else
-  console.log("connected")
-})
+
+ 
 
 connection.query("SELECT * FROM registration LIMIT 10", function (err, result, fields) {
   if (err) throw err;
 
-    const jsonData = JSON.parse(JSON.stringify(data));
+    const jsonData = JSON.parse(JSON.stringify(result));
     console.log("jsonData", jsonData);
 
     fastcsv
@@ -39,6 +38,7 @@ connection.query("SELECT * FROM registration LIMIT 10", function (err, result, f
         console.log("Write to bezkoder_mysql_fastcsv.csv successfully!");
       })
       .pipe(ws);
+  )}
   });
 
 
